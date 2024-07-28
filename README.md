@@ -1,1 +1,1 @@
-# spotify-project
+# React + Vite
