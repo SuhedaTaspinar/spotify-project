@@ -38,9 +38,16 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+import img21 from './img21.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from  './song4.mp3'
+import song5 from  './song5.mp3'
+import song6 from  './song6.mp3'
+import song7 from  './song7.mp3'
+import song8 from  './song8.mp3'
+import song9 from  './song9.mp3'
 
 export const assets = {
     bell_icon,
@@ -79,14 +86,14 @@ export const albumsData = [
     },
     {   
         id:1,
-        name: "Top 50 India",
+        name: "Top 50 Turkey",
         image: img9,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "Trending India",
+        name: "Trending Turkey",
         image: img10,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#742a2a"
@@ -117,7 +124,7 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "Falling From Grace",
         image: img1,
         file:song1,
         desc:"Put a smile on your face with these happy tunes",
@@ -125,7 +132,7 @@ export const songsData = [
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Dondante",
         image: img2,
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
@@ -133,7 +140,7 @@ export const songsData = [
     },
     {
         id:2,
-        name: "Song Three",
+        name: "I'm Not Human At All",
         image: img3,
         file:song3,
         desc:"Put a smile on your face with these happy tunes",
@@ -141,41 +148,49 @@ export const songsData = [
     },
     {
         id:3,
-        name: "Song Four",
+        name: "Par'ya",
         image: img4,
-        file:song1,
+        file:song4,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
+        name: "Sound Check (Gravity)",
         image: img5,
-        file:song2,
+        file:song5,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
+        name: "Grace",
         image: img14    ,
-        file:song3,
+        file:song6,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
+        name: "Pass The Nirvana",
         image: img7,
-        file:song1,
+        file:song7,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18"
     },
     {
         id:7,
-        name: "Song Eight",
+        name: "Entering the Black Hole",
         image: img12,
-        file:song2,
+        file:song8,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"2:35"
+    },
+    {
+        id:8,
+        name: "Nothing Less Nothing More",
+        image: img21,
+        file:song9,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
     }
